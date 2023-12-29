@@ -8,6 +8,7 @@ button {
 
 .patient-dashboard-container {
   padding-bottom: 5px;
+  overflow: hidden;
 }
 
 ::ng-deep .mat-expansion-panel-header.mat-expanded {
@@ -16,6 +17,7 @@ button {
 
 .patient-profile-sticky {
   width: 100%;
+  overflow: hidden;
   position: fixed;
   z-index: 100;
   box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%),
@@ -43,7 +45,7 @@ button {
 
 .obs-table {
   overflow-x: auto;
-  overflow-y: auto;
+   overflow-y: auto;
 }
 
 .form-listing {
